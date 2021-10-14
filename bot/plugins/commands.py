@@ -35,7 +35,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    '💘 𝗚𝗥𝗢𝗨𝗣 💘', url="https://t.me/moviehubgroupp"
+                                    '💘 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣 💘', url="https://t.me/moviehubgroupp"
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('💘  𝗚𝗥𝗢𝗨𝗣  💘', url='https://t.me/moviehubgroupp'),
+        InlineKeyboardButton('💘  𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣  💘', url='https://t.me/moviehubgroupp'),
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
