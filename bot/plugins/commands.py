@@ -6,7 +6,19 @@ from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from bot import Translation, LOGGER # pylint: disable=import-error
 from bot.database import Database # pylint: disable=import-error
+PHOTO = [ 
+"https://telegra.ph/file/b6987b454ef1d84a5576b.jpg",
+ "https://telegra.ph/file/ae46485308f11a3859e00.jpg",
+ "https://telegra.ph/file/8996147181e7a921b7093.jpg",
+ "https://telegra.ph/file/89fcdb26325e083a3e3a8.jpg",
+ "https://telegra.ph/file/801e574e56d7caefd2ec4.jpg",
+ "https://telegra.ph/file/5764ff0c275e9ea7d83c9.jpg",
+ "https://telegra.ph/file/c096c45d8c24d80d15e7f.jpg",
 
+ "https://telegra.ph/file/12a64264e010822585a62.jpg",
+ "https://telegra.ph/file/67ba89184b79372dbe103.jpg",
+ "https://telegra.ph/file/9eddbb8d6a2d7282ce908.jpg"
+]
 db = Database()
 
 @Client.on_message(filters.command(["start"]) & filters.private, group=1)
