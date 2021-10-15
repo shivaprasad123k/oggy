@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"",
+    text=f"𝗛𝗘𝗬 𝗗𝗨𝗗𝗘 {update.from_user.mention} 🙋‍♂️          Found Result {(len_results)} 🎬𝗠𝗢𝗩𝗜𝗘 𝗡𝗔𝗠𝗘: <code>{query}</code>",
         
     try:
         await update.message.edit(
