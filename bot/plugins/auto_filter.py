@@ -202,7 +202,7 @@ async def auto_filter(bot, update):
         reply_markup = InlineKeyboardMarkup(result[0])
 
         try:
-            await bot.send_message(
+            await bot.reply_photo(
                 chat_id = update.chat.id,
                 photo=RESULT_IMG, caption=f"𝗛𝗘𝗬 𝗗𝗨𝗗𝗘 {update.from_user.mention} 🙋‍♂️ \n \n Found Result-: {(len_results)} \n \n 😚 𝗖𝗟𝗜𝗖𝗞 𝗬𝗢𝗨𝗥 𝗙𝗜𝗟𝗘 📂 𝗔𝗡𝗗 𝗦𝗧𝗔𝗥𝗧 𝗧𝗛𝗘 𝗕𝗢𝗧😌 \n \n 🎬𝗠𝗢𝗩𝗜𝗘 𝗡𝗔𝗠𝗘: <code>{query}</code>",
                 reply_markup=reply_markup,
