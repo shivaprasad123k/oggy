@@ -153,7 +153,7 @@ async def auto_filter(bot, update):
     else:
         Send_message = await bot.send_photo( chat_id=update.chat.id,
             photo="https://telegra.ph/file/5a77812dcd24c8cf44572.jpg",
-            caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺 \n \n <a href=https://google.com>🔍 SEARCH IN GOOGLE</a> \n \n <a href=https://t.me/joinchat/6WZ0z0AQ0E8yMDdl>ഒന്നും മനസിലായില്ല OGGY SER 🥲</a> </b>",
+            caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺 \n \n<a href=https://google.com>🔍 SEARCH IN GOOGLE</a> \n \n<a href=https://t.me/joinchat/6WZ0z0AQ0E8yMDdl>ഒന്നും മനസിലായില്ല OGGY SER🥲</a> </b>",
             reply_to_message_id=update.message_id )
         
         await asyncio.sleep(20)
