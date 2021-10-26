@@ -154,6 +154,10 @@ async def auto_filter(bot, update):
         Send_message = await bot.send_photo( chat_id=update.chat.id,
             photo="https://telegra.ph/file/5a77812dcd24c8cf44572.jpg",
             caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺 /n 🔍 [SEARCH IN GOOGLE](https://www.google.com/) </b>",
+            buttons = [[
+             InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+             InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+         ]
             reply_to_message_id=update.message_id )
         
         await asyncio.sleep(20)
