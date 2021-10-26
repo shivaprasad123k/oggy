@@ -711,15 +711,3 @@ __command_list__ = ["welcome", "goodbye", "setwelcome", "setgoodbye", "resetwelc
 __handlers__ = [NEW_MEM_HANDLER, LEFT_MEM_HANDLER, WELC_PREF_HANDLER, GOODBYE_PREF_HANDLER,
                 SET_WELCOME, SET_GOODBYE, RESET_WELCOME, RESET_GOODBYE, CLEAN_WELCOME,
                 WELCOME_HELP, WELCOMEMUTE_HANDLER, BUTTON_VERIFY_HANDLER, WELCOME_MUTE_HELP]
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
