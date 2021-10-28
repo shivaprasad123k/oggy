@@ -126,7 +126,7 @@ async def auto_filter(bot, update):
             file_size = "" if file_size == ("[0 B]") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"🔖{file_size} ● {file_name}"
+            button_text = f"🔖{file_size} ➪ {file_name}"
             
 
             if file_type == "video":
@@ -175,10 +175,8 @@ async def auto_filter(bot, update):
             photo="https://telegra.ph/file/5a77812dcd24c8cf44572.jpg",
             caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺 \n \n<a href=https://google.com>🔍 SEARCH IN GOOGLE</a> \n \n<a href=https://t.me/joinchat/6WZ0z0AQ0E8yMDdl>ഒന്നും മനസിലായില്ല OGGY SER</a> </b>",
             reply_to_message_id=update.message_id )
-               buttons = [
-                            InlineKeyboardButton('💘  𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝗚𝗥𝗢𝗨𝗣  💘', url='https://t.me/moviehubgroupp'),
-                         ]
-        await asyncio.sleep(20)
+               
+        await asyncio.sleep(30)
         await Send_message.delete()
         return # return if no files found for that query
     
