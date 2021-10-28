@@ -52,7 +52,7 @@ RESULT_IMG = [
 "https://telegra.ph/file/d9ef838995b8b93f3d8e1.jpg",
 "https://telegra.ph/file/aa1e94a3ec6897f29fa2e.jpg",
 "https://telegra.ph/file/443d6ba72661e30032766.jpg",
-"https://telegra.ph/file/dadffd2e4db1f07ebe40c.jpg",
+"https://telegra.ph/file/dadffd2e4db1f07ebe40c.jpg"
 ]
 
 FIND = {}
@@ -123,10 +123,10 @@ async def auto_filter(bot, update):
                 file_size = f"[{str(round(file_size/(1024**3), 2))} GB] "
             
             
-            file_size = "" if file_size == ("[0 B]") else file_size
+            file_size = "" if file_size == ("0 B") else file_size
             
             # add emoji down below inside " " if you want..
-            button_text = f"🍁{file_size}☼︎{file_name}"
+            button_text = f"🔖{file_size} ● {file_name}"
             
 
             if file_type == "video":
