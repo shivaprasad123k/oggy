@@ -48,7 +48,17 @@ PHOTO = [
  "https://telegra.ph/file/4769799b5eac3a36af05e.jpg",
  "https://telegra.ph/file/ecef05bd32c6591578cc1.jpg",
  "https://telegra.ph/file/b05096e2fe39ed4881684.jpg",
- "https://telegra.ph/file/78e87346630b3b4c38d09.jpg"
+ "https://telegra.ph/file/78e87346630b3b4c38d09.jpg",
+ "https://telegra.ph/file/40fe04dbd68ab922187b5.jpg",
+ "https://telegra.ph/file/4e71a817d539a3c9ed9f2.jpg",
+ "https://telegra.ph/file/40ae8131462f4fe11558b.jpg",
+ "https://telegra.ph/file/45082e244a74859861940.jpg",
+ "https://telegra.ph/file/3589c633f2dd80eb84445.jpg",
+ "https://telegra.ph/file/dacb4b5a755e34dff4870.jpg",
+ "https://telegra.ph/file/d9ef838995b8b93f3d8e1.jpg",
+ "https://telegra.ph/file/aa1e94a3ec6897f29fa2e.jpg",
+ "https://telegra.ph/file/443d6ba72661e30032766.jpg",
+ "https://telegra.ph/file/dadffd2e4db1f07ebe40c.jpg"
 ]
 db = Database()
 
