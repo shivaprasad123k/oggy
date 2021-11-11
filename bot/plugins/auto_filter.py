@@ -174,6 +174,17 @@ async def auto_filter(bot, update):
         Send_message = await bot.send_photo( chat_id=update.chat.id,
             photo="https://telegra.ph/file/5a77812dcd24c8cf44572.jpg",
             caption="<b>Couldn't Find This Movie.Try Again..! ഈ സിനിമയുടെ ഒറിജിനൽ പേര് ഗൂഗിളിൽ പോയി കണ്ടെത്തി അതുപോലെ ഇവിടെ കൊടുക്കുക 🥺 \n \n<a href=https://google.com>🔍 SEARCH IN GOOGLE</a> \n \n<a href=https://t.me/joinchat/6WZ0z0AQ0E8yMDdl>ഒന്നും മനസിലായില്ല OGGY SER</a> </b>",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton("🕵️‍♂️ Search On Google 🕵️‍♂️", url=f"https://google.com/search?q={search}")
+                    ],
+                    [       
+                        InlineKeyboardButton("🧐Did not understand🥲", callback_data="spelling"),
+                    ]
+                ]
+            )
+         )
             reply_to_message_id=update.message_id )
                
         await asyncio.sleep(30)
